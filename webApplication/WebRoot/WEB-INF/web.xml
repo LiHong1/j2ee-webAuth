@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" id="WebApp_ID" version="2.4">
+  <servlet>
+    <servlet-name>userLoginServlet</servlet-name>
+    <servlet-class>com.controller.userLoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>userLoginServlet</servlet-name>
+    <url-pattern>/servlet/userLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>userRegisterServlet</servlet-name>
+    <servlet-class>com.controller.userRegisterServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>userRegisterServlet</servlet-name>
+    <url-pattern>/servlet/userRegisterServlet</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>userResetPasswordServlet</servlet-name>
+    <servlet-class>com.controller.userResetPasswordServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>userResetPasswordServlet</servlet-name>
+    <url-pattern>/servlet/userResetPasswordServlet</url-pattern>
+  </servlet-mapping> 
+  
+  
+    <servlet>
+      <servlet-name>webAuthServlet</servlet-name>
+      <servlet-class>com.webAuth.WebAuthServlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>webAuthServlet</servlet-name>
+      <url-pattern>/webAuthServlet</url-pattern>
+   </servlet-mapping>
+
+</web-app>

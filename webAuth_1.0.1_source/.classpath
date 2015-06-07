@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/li hong/Desktop/webAuth/bcprov-jdk16-1.46.jar"/>
+	<classpathentry kind="lib" path="C:/Users/li hong/Desktop/webAuth/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/li hong/Desktop/webAuth/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/li hong/Desktop/webAuth/commons-codec-repackaged-10.0-b28.jar"/>
+	<classpathentry kind="lib" path="C:/Users/li hong/Desktop/webAuth/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/li hong/Desktop/webAuth/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/li hong/Desktop/webAuth/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/li hong/Desktop/webAuth/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/li hong/Desktop/webAuth/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/li hong/Desktop/webAuth/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/li hong/Desktop/webAuth/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/li hong/Desktop/webAuth/struts2-core-2.3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/li hong/Desktop/webAuth/xwork-core-2.3.16.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="lib" path="C:/Users/li hong/Desktop/javaee.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
